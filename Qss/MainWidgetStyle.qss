@@ -1,0 +1,96 @@
+#Mainwindow {
+     background-color:qlineargradient(x1:0, y1:0 , x2:0 ,y2:1 stop:1 #141E30 ,stop:0 #243B55);
+     color: #fafcff;
+     font-size: 15px;
+     font-family: 微软雅黑;
+}
+
+QPushButton {
+     background-color: qlineargradient(x1:0, y1:0 , x2:1 ,y2:0 stop:0 #0082c8,stop:1 #6082c8);
+     border: none;
+     color: #fafcff;
+     padding: 5px;
+     border-radius:10px;
+}
+QPushButton ::hover {
+     background-color: qlineargradient(x1:0, y1:0 , x2:1 ,y2:0 stop:0 #00bfff,stop:1 #7092c8);
+}
+
+#label_img {
+     background-color: rgba(252,252,252,4%);
+     color: white;
+     font-size: 16px;
+     border: none;
+}
+#label_name {
+     background-color: rgba(252,252,252,0%);
+     color: white;
+     font-size: 16px;
+     border: none;
+}
+
+QLabel {
+     background-color: rgba(252,252,252,0%);
+     color: white;
+     font-size: 16px;
+     border: none;
+}
+
+
+QGroupBox
+{
+	border: 3px solid #0082c8;
+	border-radius:10px;
+	margin-top:5ex;
+ 
+} 
+QGroupBox::title
+{
+     subcontrol-origin:margin;
+     top :20px;
+	left: 10px;
+	padding:1px;
+     color: white;
+}
+
+QProgressBar {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #fafcff;
+    color: black;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #00bfff;
+    width: 10px;
+    margin: 0px;
+}
+
+QProgressBar::chunk:disabled {
+    background-color: #fafcff;
+}
+
+QProgressBar::chunk:active {
+    background-color: #00aaff;
+}
+
+QProgressBar::chunk::hover {
+    background-color: #0082c8;
+}
+
+QProgressBar::chunk::pressed {
+    background-color: #0082c8;
+}
+
+QLineEdit {
+    background-color: #141E30;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: #fafcff;
+}
+
+QLineEdit:hover {
+    background-color: #243B55;
+}
